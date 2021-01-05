@@ -31,7 +31,7 @@ function Navi(){
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <Link to="/danielvox/#" className="nav-link">Home
+                    <Link to="/" className="nav-link">Home
                     {/* <span class="sr-only">(current)</span> */}
                     </Link>
                     {/* <a class="nav-link" href="/home">Home
@@ -39,19 +39,19 @@ function Navi(){
                     </a> */}
                 </li>
                 <li class="nav-item">
-                    <Link to="/danielvox/#/demos" className="nav-link">Targeted Demos</Link>                    
+                    <Link to="/demos" className="nav-link">Targeted Demos</Link>                    
                     {/* <a class="nav-link" href="/demos">Targeted Demos</a> */}
                 </li>
                 <li class="nav-item">
-                    <Link to="/danielvox/#/testimonials" className="nav-link">Testimonials</Link>  
+                    <Link to="/testimonials" className="nav-link">Testimonials</Link>  
                     {/* <a class="nav-link" href="/testimonials">Testimonials</a> */}
                 </li>
                 <li class="nav-item">
-                    <Link to="/danielvox/#/contact" className="nav-link">Contact</Link>  
+                    <Link to="/contact" className="nav-link">Contact</Link>  
                     {/* <a class="nav-link" href="/contact">Contact</a> */}
                 </li>
                 <li class="nav-item">
-                    <Link to="/danielvox/#/recentWork" className="nav-link">Recent Work</Link>  
+                    <Link to="/recentWork" className="nav-link">Recent Work</Link>  
                     {/* <a class="nav-link" href="/recentWork">Recent Work</a> */}
                 </li>
                 </ul>

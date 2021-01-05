@@ -25,19 +25,19 @@ function App() {
   <div className="App">
     <Navi/>
     <Switch>
-      <Route exact path={["/#", "/"]}>
+      <Route exact path="/">
         <Home/>
       </Route>
-      <Route exact path="/danielvox/#/contact">
+      <Route exact path="/contact">
         <Contact/>
       </Route>
-      <Route exact path="/danielvox/#/demos">
+      <Route exact path="/demos">
         <Demos/>
       </Route>
-      <Route exact path="/danielvox/#/recentWork">
+      <Route exact path="/recentWork">
         <RecentWork/>
       </Route>
-      <Route exact path="/danielvox/#/testimonials">
+      <Route exact path="/testimonials">
         <Testimonials/>
       </Route>
       <Route>
