@@ -1,5 +1,5 @@
 import React from "react";
-// import { Link } from "react-router-dom";
+import { Link } from "react-router-dom";
 // import { Navbar, Nav } from "react-bootstrap";
 //import Button from 'react-bootstrap/Button';
 
@@ -31,21 +31,28 @@ function Navi(){
             <div class="collapse navbar-collapse" id="navbarColor01">
                 <ul class="navbar-nav mr-auto">
                 <li class="nav-item active">
-                    <a class="nav-link" href="/home">Home
+                    <Link to="/danielvox/#" className="nav-link">Home
+                    {/* <span class="sr-only">(current)</span> */}
+                    </Link>
+                    {/* <a class="nav-link" href="/home">Home
                     <span class="sr-only">(current)</span>
-                    </a>
+                    </a> */}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/demos">Targeted Demos</a>
+                    <Link to="/danielvox/#/demos" className="nav-link">Targeted Demos</Link>                    
+                    {/* <a class="nav-link" href="/demos">Targeted Demos</a> */}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/testimonials">Testimonials</a>
+                    <Link to="/danielvox/#/testimonials" className="nav-link">Testimonials</Link>  
+                    {/* <a class="nav-link" href="/testimonials">Testimonials</a> */}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/contact">Contact</a>
+                    <Link to="/danielvox/#/contact" className="nav-link">Contact</Link>  
+                    {/* <a class="nav-link" href="/contact">Contact</a> */}
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/recentWork">Recent Work</a>
+                    <Link to="/danielvox/#/recentWork" className="nav-link">Recent Work</Link>  
+                    {/* <a class="nav-link" href="/recentWork">Recent Work</a> */}
                 </li>
                 </ul>
 

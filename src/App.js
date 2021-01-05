@@ -1,40 +1,43 @@
 import React from "react";
+import loadable from '@loadable/component';
 import './App.css';
 import {
-  BrowserRouter as Router,
+//  BrowserRouter as Router,
+  HashRouter,
   Route,
   Switch,
-  // Redirect,
 } from "react-router-dom";
-
-// import { MemoryRouter, Switch, Route} from "react-router-dom";
-// import 
 import Navi from "./Components/Nav";
+//const Home = loadable(() => import ("./Pages/Home"));
 import Home from "./Pages/Home";
-import Contact from "./Pages/Contact";
-import Demos from "./Pages/Demos";
-import RecentWork from "./Pages/RecentWork";
-import Testimonials from "./Pages/Testimonials";
+const Contact = loadable(() => import ("./Pages/Contact"));
+// import Contact from "./Pages/Contact";
+const Demos = loadable(() => import ("./Pages/Demos"));
+//import Demos from "./Pages/Demos";
+const RecentWork = loadable(() => import ("./Pages/RecentWork"));
+// import RecentWork from "./Pages/RecentWork";
+const Testimonials = loadable(() => import ("./Pages/Testimonials"));
+//import Testimonials from "./Pages/Testimonials";
 
 function App() {
   return (
-<Router>
+<HashRouter basename="/">
   <div className="App">
     <Navi/>
     <Switch>
-      <Route exact path={["/#", "/", "/home"]}>
+      <Route exact path={["/#", "/"]}>
         <Home/>
       </Route>
-      <Route exact path="/contact">
+      <Route exact path="/danielvox/#/contact">
         <Contact/>
       </Route>
-      <Route exact path="/demos">
+      <Route exact path="/danielvox/#/demos">
         <Demos/>
       </Route>
-      <Route exact path="/recentWork">
+      <Route exact path="/danielvox/#/recentWork">
         <RecentWork/>
       </Route>
-      <Route exact path="/testimonials">
+      <Route exact path="/danielvox/#/testimonials">
         <Testimonials/>
       </Route>
       <Route>
@@ -42,7 +45,7 @@ function App() {
       </Route>
     </Switch>
   </div>
-</Router>
+</HashRouter>
 
   );
 }
