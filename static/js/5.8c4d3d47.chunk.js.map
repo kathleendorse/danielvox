@@ -1,0 +1,1 @@
+{"version":3,"sources":["Pages/RecentWork.js"],"names":["RecentWork"],"mappings":"wHAQeA,UANf,WACI,OACI","file":"static/js/5.8c4d3d47.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nfunction RecentWork(){\r\n    return(\r\n        <h1>Recent Work Page</h1>\r\n    );\r\n}\r\n\r\nexport default RecentWork;"],"sourceRoot":""}

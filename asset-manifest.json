@@ -1,22 +1,30 @@
 {
   "files": {
     "main.css": "/danielvox/static/css/main.9b3588d2.chunk.css",
-    "main.js": "/danielvox/static/js/main.2cc70977.chunk.js",
-    "main.js.map": "/danielvox/static/js/main.2cc70977.chunk.js.map",
-    "runtime-main.js": "/danielvox/static/js/runtime-main.a2d816b4.js",
-    "runtime-main.js.map": "/danielvox/static/js/runtime-main.a2d816b4.js.map",
-    "static/js/2.6f394d15.chunk.js": "/danielvox/static/js/2.6f394d15.chunk.js",
-    "static/js/2.6f394d15.chunk.js.map": "/danielvox/static/js/2.6f394d15.chunk.js.map",
-    "static/js/3.4ff6c815.chunk.js": "/danielvox/static/js/3.4ff6c815.chunk.js",
-    "static/js/3.4ff6c815.chunk.js.map": "/danielvox/static/js/3.4ff6c815.chunk.js.map",
+    "main.js": "/danielvox/static/js/main.d17423c5.chunk.js",
+    "main.js.map": "/danielvox/static/js/main.d17423c5.chunk.js.map",
+    "runtime-main.js": "/danielvox/static/js/runtime-main.af30ac94.js",
+    "runtime-main.js.map": "/danielvox/static/js/runtime-main.af30ac94.js.map",
+    "static/js/2.3a7c60f4.chunk.js": "/danielvox/static/js/2.3a7c60f4.chunk.js",
+    "static/js/2.3a7c60f4.chunk.js.map": "/danielvox/static/js/2.3a7c60f4.chunk.js.map",
+    "static/js/3.52dc7589.chunk.js": "/danielvox/static/js/3.52dc7589.chunk.js",
+    "static/js/3.52dc7589.chunk.js.map": "/danielvox/static/js/3.52dc7589.chunk.js.map",
+    "static/js/4.51f81791.chunk.js": "/danielvox/static/js/4.51f81791.chunk.js",
+    "static/js/4.51f81791.chunk.js.map": "/danielvox/static/js/4.51f81791.chunk.js.map",
+    "static/js/5.8c4d3d47.chunk.js": "/danielvox/static/js/5.8c4d3d47.chunk.js",
+    "static/js/5.8c4d3d47.chunk.js.map": "/danielvox/static/js/5.8c4d3d47.chunk.js.map",
+    "static/js/6.a659a179.chunk.js": "/danielvox/static/js/6.a659a179.chunk.js",
+    "static/js/6.a659a179.chunk.js.map": "/danielvox/static/js/6.a659a179.chunk.js.map",
+    "static/js/7.db14c741.chunk.js": "/danielvox/static/js/7.db14c741.chunk.js",
+    "static/js/7.db14c741.chunk.js.map": "/danielvox/static/js/7.db14c741.chunk.js.map",
     "index.html": "/danielvox/index.html",
     "static/css/main.9b3588d2.chunk.css.map": "/danielvox/static/css/main.9b3588d2.chunk.css.map",
-    "static/js/2.6f394d15.chunk.js.LICENSE.txt": "/danielvox/static/js/2.6f394d15.chunk.js.LICENSE.txt"
+    "static/js/2.3a7c60f4.chunk.js.LICENSE.txt": "/danielvox/static/js/2.3a7c60f4.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
-    "static/js/runtime-main.a2d816b4.js",
-    "static/js/2.6f394d15.chunk.js",
+    "static/js/runtime-main.af30ac94.js",
+    "static/js/2.3a7c60f4.chunk.js",
     "static/css/main.9b3588d2.chunk.css",
-    "static/js/main.2cc70977.chunk.js"
+    "static/js/main.d17423c5.chunk.js"
   ]
 }

@@ -1,0 +1,1 @@
+{"version":3,"sources":["Pages/Testimonials.js"],"names":["Testimonials"],"mappings":"wHAQeA,UANf,WACI,OACI","file":"static/js/6.a659a179.chunk.js","sourcesContent":["import React from \"react\";\r\n\r\nfunction Testimonials(){\r\n    return(\r\n        <h1>Testimonials Page</h1>\r\n    );\r\n}\r\n\r\nexport default Testimonials;"],"sourceRoot":""}
