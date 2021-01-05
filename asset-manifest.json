@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/danielvox/static/css/main.9b3588d2.chunk.css",
-    "main.js": "/danielvox/static/js/main.360a0555.chunk.js",
-    "main.js.map": "/danielvox/static/js/main.360a0555.chunk.js.map",
+    "main.js": "/danielvox/static/js/main.bc0517db.chunk.js",
+    "main.js.map": "/danielvox/static/js/main.bc0517db.chunk.js.map",
     "runtime-main.js": "/danielvox/static/js/runtime-main.af30ac94.js",
     "runtime-main.js.map": "/danielvox/static/js/runtime-main.af30ac94.js.map",
     "static/js/2.3a7c60f4.chunk.js": "/danielvox/static/js/2.3a7c60f4.chunk.js",
@@ -25,6 +25,6 @@
     "static/js/runtime-main.af30ac94.js",
     "static/js/2.3a7c60f4.chunk.js",
     "static/css/main.9b3588d2.chunk.css",
-    "static/js/main.360a0555.chunk.js"
+    "static/js/main.bc0517db.chunk.js"
   ]
 }
