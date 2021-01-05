@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/danielvox/static/css/main.9b3588d2.chunk.css",
+    "main.js": "/danielvox/static/js/main.8ffedd54.chunk.js",
+    "main.js.map": "/danielvox/static/js/main.8ffedd54.chunk.js.map",
+    "runtime-main.js": "/danielvox/static/js/runtime-main.a2d816b4.js",
+    "runtime-main.js.map": "/danielvox/static/js/runtime-main.a2d816b4.js.map",
+    "static/js/2.7d42d677.chunk.js": "/danielvox/static/js/2.7d42d677.chunk.js",
+    "static/js/2.7d42d677.chunk.js.map": "/danielvox/static/js/2.7d42d677.chunk.js.map",
+    "static/js/3.4ff6c815.chunk.js": "/danielvox/static/js/3.4ff6c815.chunk.js",
+    "static/js/3.4ff6c815.chunk.js.map": "/danielvox/static/js/3.4ff6c815.chunk.js.map",
+    "index.html": "/danielvox/index.html",
+    "static/css/main.9b3588d2.chunk.css.map": "/danielvox/static/css/main.9b3588d2.chunk.css.map",
+    "static/js/2.7d42d677.chunk.js.LICENSE.txt": "/danielvox/static/js/2.7d42d677.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.a2d816b4.js",
+    "static/js/2.7d42d677.chunk.js",
+    "static/css/main.9b3588d2.chunk.css",
+    "static/js/main.8ffedd54.chunk.js"
+  ]
+}
