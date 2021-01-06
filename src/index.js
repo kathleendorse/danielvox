@@ -5,8 +5,6 @@ import App from './App';
 import reportWebVitals from './reportWebVitals';
 // import "bootstrap/dist/css/bootstrap.min.css";
 import "./bootstrap.min.css";
-// import HeroImage from "./Components/HeroImage";
-
 
 ReactDOM.render(
   <React.StrictMode>
