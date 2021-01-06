@@ -11,7 +11,7 @@ function Home(){
             <Row><br></br></Row>
             <Row>
                 <Col><br></br></Col>
-                <Col xs={8}>
+                <Col xs={10}>
                     <br></br>
                     <br></br>
                     <br></br>
@@ -21,7 +21,7 @@ function Home(){
             </Row>    
             <Row>
                 <Col></Col>
-                <Col xs={8}>
+                <Col xs={10}>
                     <ResponsivePlayer/>
                 </Col>
                 <Col></Col>
