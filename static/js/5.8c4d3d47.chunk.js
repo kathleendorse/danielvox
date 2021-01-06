@@ -1,2 +1,0 @@
-(this.webpackJsonpdaniel=this.webpackJsonpdaniel||[]).push([[5],{34:function(e,n,t){"use strict";t.r(n);var c=t(1);t(0);n.default=function(){return Object(c.jsx)("h1",{children:"Recent Work Page"})}}}]);
-//# sourceMappingURL=5.8c4d3d47.chunk.js.map
