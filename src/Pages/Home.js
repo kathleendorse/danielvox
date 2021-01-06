@@ -1,8 +1,32 @@
 import React from "react";
+// import ReactPlayer from "react-player/lazy";
+import {Container, Row, Col} from "react-bootstrap";
+import ResponsivePlayer from "../Components/ResponsivePlayer";
+
+
 
 function Home(){
     return(
-        <h1>Home Page</h1>
+        <Container fluid>
+            <Row><br></br></Row>
+            <Row>
+                <Col><br></br></Col>
+                <Col xs={8}>
+                    <br></br>
+                    <br></br>
+                    <br></br>
+                    <h2 className="text-warning">COMMERCIAL DEMO</h2>
+                </Col>
+                <Col></Col>
+            </Row>    
+            <Row>
+                <Col></Col>
+                <Col xs={8}>
+                    <ResponsivePlayer/>
+                </Col>
+                <Col></Col>
+            </Row>
+        </Container>    
     );
 }
 

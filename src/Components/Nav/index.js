@@ -22,35 +22,35 @@ function Navi(){
         //         </Nav>
         //     </Navbar.Collapse>
         // </Navbar>
-        <nav class="navbar navbar-expand-lg navbar-dark bg-primary">
-            <a class="navbar-brand" href="#">Daniel Vox</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor01" aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
+        <nav id="sticky" className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
+            <a className="navbar-brand" href="/">Daniel Vox</a>
+            <button className="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded="false" aria-label="Toggle navigation">
+                <span className="navbar-toggler-icon"></span>
             </button>
 
-            <div class="collapse navbar-collapse" id="navbarColor01">
-                <ul class="navbar-nav mr-auto">
-                <li class="nav-item active">
+            <div className="collapse navbar-collapse" id="navbarColor03">
+                <ul className="navbar-nav mr-auto">
+                <li className="nav-item active">
                     <Link to="/" className="nav-link">Home
-                    {/* <span class="sr-only">(current)</span> */}
+                    {/* <span className="sr-only">(current)</span> */}
                     </Link>
-                    {/* <a class="nav-link" href="/home">Home
-                    <span class="sr-only">(current)</span>
+                    {/* <a className="nav-link" href="/home">Home
+                    <span className="sr-only">(current)</span>
                     </a> */}
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/demos" className="nav-link">Targeted Demos</Link>                    
-                    {/* <a class="nav-link" href="/demos">Targeted Demos</a> */}
+                    {/* <a className="nav-link" href="/demos">Targeted Demos</a> */}
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/testimonials" className="nav-link">Testimonials</Link>  
-                    {/* <a class="nav-link" href="/testimonials">Testimonials</a> */}
+                    {/* <a className="nav-link" href="/testimonials">Testimonials</a> */}
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/contact" className="nav-link">Contact</Link>  
-                    {/* <a class="nav-link" href="/contact">Contact</a> */}
+                    {/* <a className="nav-link" href="/contact">Contact</a> */}
                 </li>
-                <li class="nav-item">
+                <li className="nav-item">
                     <Link to="/recentWork" className="nav-link">Recent Work</Link>  
                     {/* <a class="nav-link" href="/recentWork">Recent Work</a> */}
                 </li>
