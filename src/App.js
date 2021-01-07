@@ -3,18 +3,16 @@ import loadable from '@loadable/component';
 import './App.css';
 import Home from "./Pages/Home";
 import HeroImage from "./Components/HeroImage";
-import iconFacebook from "./iconfacebook.png";
-import iconLinkedIn from "./iconlinkedin.png";
-import iconSoundcloud from "./iconsoundcloud.png";
-import iconTwitter from "./icontwitter.png";
+// import iconFacebook from "./iconfacebook.png";
+// import iconLinkedIn from "./iconlinkedin.png";
+// import iconSoundcloud from "./iconsoundcloud.png";
+// import iconTwitter from "./icontwitter.png";
 import {
-//  BrowserRouter as Router,
   HashRouter,
   Route,
   Switch,
 } from "react-router-dom";
-import Navi from "./Components/Nav";
-//const Home = loadable(() => import ("./Pages/Home"));
+import TopNav from "./Components/Nav";
 
 
 const Contact = loadable(() => import ("./Pages/Contact"));
@@ -30,8 +28,8 @@ function App() {
   return (
 <HashRouter basename="/">
   <div className="App">
-    <Navi/>
-    <HeroImage
+    <TopNav/>
+    {/* <HeroImage
       imageSrc="https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg"
 		  color="#555555"
       gradientDirection="to bottom right"
@@ -46,7 +44,10 @@ function App() {
       <a href="https://www.linkedin.com/in/daniel-dorse-b8b20046/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to linkedin (opens in a new tab)"><img  src={iconLinkedIn} alt="linkedin"/></a> 
       <a href="https://www.facebook.com/daniel.dorse/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to facebook (opens in a new tab)"><img  src={iconFacebook} alt="facebook"/></a>
       <a href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to twitter (opens in a new tab)"><img  src={iconTwitter} alt="twitter"/></a>
-	  </HeroImage>
+	  </HeroImage> */}
+    <HeroImage/>
+{/* 
+	  </HeroImage> */}
     <Switch>
       <Route exact path="/">
         <Home/>

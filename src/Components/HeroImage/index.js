@@ -2,15 +2,32 @@ import React, { Component, Fragment } from 'react';
 import styled from 'styled-components';
 import generateBgGradient from '../../utils/generateBgGradient';
 
+import iconFacebook from "../../iconfacebook.png";
+import iconLinkedIn from "../../iconlinkedin.png";
+import iconSoundcloud from "../../iconsoundcloud.png";
+import iconTwitter from "../../icontwitter.png";
+
+
+
 export default class HeroImage extends Component {
 	render() {
 		return (
 			<Fragment>
-				<HeroImageWrapper {...this.props}>
+				<HeroImageWrapper 
+					imageSrc="https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg"
+		  			color="#555555"
+      				gradientDirection="to bottom right"
+      				height="60vh"
+      				opacity="0.8"
+				    parallax textPosition="center">
 					<ChildrenWrapper
-						style={{ ...this.props.childrenStyles }}
+						style={{ color: '#fdf6e3' }}
 					>
-						{this.props.children}
+		  				<h1>THE VOICE YOU WANT TO LISTEN TO</h1>
+						<a href="https://soundcloud.com/danielvox" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to soundcloud (opens in a new tab)"><img  src={iconSoundcloud} alt="soundcloud"/></a>
+						<a href="https://www.linkedin.com/in/daniel-dorse-b8b20046/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to linkedin (opens in a new tab)"><img  src={iconLinkedIn} alt="linkedin"/></a> 
+						<a href="https://www.facebook.com/daniel.dorse/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to facebook (opens in a new tab)"><img  src={iconFacebook} alt="facebook"/></a>
+						<a href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to twitter (opens in a new tab)"><img  src={iconTwitter} alt="twitter"/></a>
 					</ChildrenWrapper>
 				</HeroImageWrapper>
 			</Fragment>
