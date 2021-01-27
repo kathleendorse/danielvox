@@ -11,7 +11,7 @@ const TopNav= props => {
 
     return(
         <nav id="sticky" className="navbar navbar-expand-lg navbar-light bg-light sticky-top">
-            <a className="navbar-brand" href="/">Daniel Vox</a>
+            <a className="navbar-brand" href="/">danielvox</a>
 
             <button className="custom-toggler navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarColor03" aria-controls="navbarColor03" aria-expanded={!isNavCollapsed ? true : false} aria-label="Toggle navigation" onClick={handleNavCollapse}>
                 <span className="navbar-toggler-icon"></span>
@@ -25,7 +25,10 @@ const TopNav= props => {
                     </Link>
                 </li>
                 <li className="nav-item">
-                    <Link to="/demos" className="nav-link">Targeted Demos</Link>                    
+                    <Link to="/demos" className="nav-link">Demos</Link>                    
+                </li>
+                <li className="nav-item">
+                    <Link to="/audiobooks" className="nav-link">Audio Books</Link>  
                 </li>
                 <li className="nav-item">
                     <Link to="/testimonials" className="nav-link">Testimonials</Link>  
@@ -33,9 +36,7 @@ const TopNav= props => {
                 <li className="nav-item">
                     <Link to="/contact" className="nav-link">Contact</Link>  
                 </li>
-                <li className="nav-item">
-                    <Link to="/recentWork" className="nav-link">Recent Work</Link>  
-                </li>
+
                 </ul>
 
             </div>
