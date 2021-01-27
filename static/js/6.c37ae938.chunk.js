@@ -1,0 +1,2 @@
+(this.webpackJsonpdaniel=this.webpackJsonpdaniel||[]).push([[6],{115:function(n,t,e){"use strict";e.r(t);var a=e(1);e(0);t.default=function(){return Object(a.jsx)("h1",{children:"Contact Page"})}}}]);
+//# sourceMappingURL=6.c37ae938.chunk.js.map
