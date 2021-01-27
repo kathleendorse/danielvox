@@ -5,28 +5,30 @@ import ResponsivePlayer from "../Components/ResponsivePlayer";
 
 
 
+
 function Home(){
     return(
-        <Container fluid>
-            <Row><br></br></Row>
-            <Row>
-                <Col><br></br></Col>
-                <Col xs={10}>
-                    <br></br>
-                    <br></br>
-                    <br></br>
-                    <h2 className="text-warning">COMMERCIAL DEMO</h2>
-                </Col>
-                <Col></Col>
-            </Row>    
-            <Row>
-                <Col></Col>
-                <Col xs={10}>
-                    <ResponsivePlayer/>
-                </Col>
-                <Col></Col>
-            </Row>
-        </Container>    
+        <div></div>
+        // <Container fluid>
+        //     <Row><br></br></Row>
+        //     <Row>
+        //         <Col><br></br></Col>
+        //         <Col xs={10}>
+        //             <br></br>
+        //             <br></br>
+        //             <br></br>
+        //             <h2 className="text-warning">COMMERCIAL DEMO</h2>
+        //         </Col>
+        //         <Col></Col>
+        //     </Row>    
+        //     <Row>
+        //         <Col></Col>
+        //         <Col xs={10}>
+        //             <ResponsivePlayer/>
+        //         </Col>
+        //         <Col></Col>
+        //     </Row>
+        // </Container>    
     );
 }
 
