@@ -1,10 +1,10 @@
 {
   "files": {
-    "main.css": "/danielvox/static/css/main.3c79a64c.chunk.css",
+    "main.css": "/danielvox/static/css/main.7663b369.chunk.css",
     "main.js": "/danielvox/static/js/main.df2fc1f1.chunk.js",
     "main.js.map": "/danielvox/static/js/main.df2fc1f1.chunk.js.map",
-    "runtime-main.js": "/danielvox/static/js/runtime-main.9f7dc290.js",
-    "runtime-main.js.map": "/danielvox/static/js/runtime-main.9f7dc290.js.map",
+    "runtime-main.js": "/danielvox/static/js/runtime-main.eb550bba.js",
+    "runtime-main.js.map": "/danielvox/static/js/runtime-main.eb550bba.js.map",
     "static/js/2.b9f73800.chunk.js": "/danielvox/static/js/2.b9f73800.chunk.js",
     "static/js/2.b9f73800.chunk.js.map": "/danielvox/static/js/2.b9f73800.chunk.js.map",
     "static/css/3.3e5c2b27.chunk.css": "/danielvox/static/css/3.3e5c2b27.chunk.css",
@@ -12,8 +12,8 @@
     "static/js/3.1cb6540a.chunk.js.map": "/danielvox/static/js/3.1cb6540a.chunk.js.map",
     "static/js/4.7d9f3e3f.chunk.js": "/danielvox/static/js/4.7d9f3e3f.chunk.js",
     "static/js/4.7d9f3e3f.chunk.js.map": "/danielvox/static/js/4.7d9f3e3f.chunk.js.map",
-    "static/js/5.5db5726c.chunk.js": "/danielvox/static/js/5.5db5726c.chunk.js",
-    "static/js/5.5db5726c.chunk.js.map": "/danielvox/static/js/5.5db5726c.chunk.js.map",
+    "static/js/5.b71c3b46.chunk.js": "/danielvox/static/js/5.b71c3b46.chunk.js",
+    "static/js/5.b71c3b46.chunk.js.map": "/danielvox/static/js/5.b71c3b46.chunk.js.map",
     "static/js/6.14f4c715.chunk.js": "/danielvox/static/js/6.14f4c715.chunk.js",
     "static/js/6.14f4c715.chunk.js.map": "/danielvox/static/js/6.14f4c715.chunk.js.map",
     "static/js/7.da140781.chunk.js": "/danielvox/static/js/7.da140781.chunk.js",
@@ -22,16 +22,16 @@
     "static/js/8.8d43d24b.chunk.js.map": "/danielvox/static/js/8.8d43d24b.chunk.js.map",
     "index.html": "/danielvox/index.html",
     "static/css/3.3e5c2b27.chunk.css.map": "/danielvox/static/css/3.3e5c2b27.chunk.css.map",
-    "static/css/main.3c79a64c.chunk.css.map": "/danielvox/static/css/main.3c79a64c.chunk.css.map",
+    "static/css/main.7663b369.chunk.css.map": "/danielvox/static/css/main.7663b369.chunk.css.map",
     "static/js/2.b9f73800.chunk.js.LICENSE.txt": "/danielvox/static/js/2.b9f73800.chunk.js.LICENSE.txt",
     "static/js/3.1cb6540a.chunk.js.LICENSE.txt": "/danielvox/static/js/3.1cb6540a.chunk.js.LICENSE.txt",
     "static/js/4.7d9f3e3f.chunk.js.LICENSE.txt": "/danielvox/static/js/4.7d9f3e3f.chunk.js.LICENSE.txt",
     "static/media/styles.css": "/danielvox/static/media/revicons.e8746a62.woff"
   },
   "entrypoints": [
-    "static/js/runtime-main.9f7dc290.js",
+    "static/js/runtime-main.eb550bba.js",
     "static/js/2.b9f73800.chunk.js",
-    "static/css/main.3c79a64c.chunk.css",
+    "static/css/main.7663b369.chunk.css",
     "static/js/main.df2fc1f1.chunk.js"
   ]
 }
