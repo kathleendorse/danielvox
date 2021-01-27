@@ -1,1 +1,0 @@
-{"version":3,"sources":["Pages/Demos.js"],"names":["Demos"],"mappings":"wHAQeA,UANf,WACI,OACI","file":"static/js/4.b9d4e745.chunk.js","sourcesContent":["import React from \"react\";\n\nfunction Demos(){\n    return(\n        <h1>Targeted Demos Page</h1>\n    );\n}\n\nexport default Demos;"],"sourceRoot":""}
