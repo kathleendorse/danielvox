@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/danielvox/static/css/main.a9e45d70.chunk.css",
-    "main.js": "/danielvox/static/js/main.70253b15.chunk.js",
-    "main.js.map": "/danielvox/static/js/main.70253b15.chunk.js.map",
+    "main.js": "/danielvox/static/js/main.bd7417ef.chunk.js",
+    "main.js.map": "/danielvox/static/js/main.bd7417ef.chunk.js.map",
     "runtime-main.js": "/danielvox/static/js/runtime-main.3a78fcd0.js",
     "runtime-main.js.map": "/danielvox/static/js/runtime-main.3a78fcd0.js.map",
     "static/js/2.be2c9bbf.chunk.js": "/danielvox/static/js/2.be2c9bbf.chunk.js",
@@ -34,6 +34,6 @@
     "static/js/runtime-main.3a78fcd0.js",
     "static/js/2.be2c9bbf.chunk.js",
     "static/css/main.a9e45d70.chunk.css",
-    "static/js/main.70253b15.chunk.js"
+    "static/js/main.bd7417ef.chunk.js"
   ]
 }
