@@ -25,9 +25,9 @@ function App() {
 <HashRouter basename="/">
   <div className="App">
     <TopNav/>
-    <HeroImage/>
     <Switch>
       <Route exact path="/">
+        <HeroImage/>
         {/* <Home/> */}
         {/* <HeroImage/> */}
       </Route>
