@@ -1,2 +1,0 @@
-(this.webpackJsonpdaniel=this.webpackJsonpdaniel||[]).push([[8],{118:function(e,n,i){"use strict";i.r(n);var s=i(1);i(0);n.default=function(){return Object(s.jsx)("h1",{children:"Testimonials Page"})}}}]);
-//# sourceMappingURL=8.b4aa20a8.chunk.js.map
