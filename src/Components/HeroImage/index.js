@@ -13,14 +13,17 @@ import iconEmail from "../../images/iconemail.png";
 export default class HeroImage extends Component {
 	render() {
 		return (
-			<Fragment>
+<Fragment>
 				<HeroImageWrapper 
 					imageSrc="https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg"
 		  			color="#555555"
       				gradientDirection="to bottom right"
-      				height="60vh"
-      				opacity="0.8"
-				    parallax textPosition="center">
+					  height="95vh"
+					  width="100vw"
+					  opacity="0.8"
+					  
+						parallax="scroll" 
+						textPosition="center">
 					<ChildrenWrapper
 						style={{ color: '#fdf6e3' }}
 					>
@@ -35,7 +38,19 @@ export default class HeroImage extends Component {
 						<a href="mailto:danielvox@cox.net" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to email Daniel (opens in a new tab)"><img  src={iconEmail} alt="email"/></a>
 					</ChildrenWrapper>
 				</HeroImageWrapper>
-			</Fragment>
+			</Fragment> 
+
+
+
+
+
+
+
+
+
+
+
+
 		);
 	}
 }
