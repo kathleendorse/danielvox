@@ -108,7 +108,7 @@ function Demos(){
             </Row>
 {/* ----------OPTION 2 TABLE & HALF SIZE PLAYER---------- */}
 
-            <Row>
+            {/* <Row>
                 <Col></Col>
                 <Col xs={5}>
                     <ResponsivePlayer url={url}/>
@@ -124,7 +124,7 @@ function Demos(){
                                 </tr>
                             ))}
                         </tbody>
-                    </Table>
+                    </Table> */}
                         {/* <div className="btn-group btn-group-toggle" data-toggle="buttons">
                             <label className="btn btn-primary active">
                                 <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Active
@@ -137,9 +137,9 @@ function Demos(){
                             </label>
                         </div> */}
 
-                </Col>
+                {/* </Col>
                 <Col></Col>
-            </Row>
+            </Row> */}
 
 
 

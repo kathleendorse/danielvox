@@ -19,6 +19,7 @@ const AudioBooks = loadable(() => import ("./Pages/AudioBooks"));
 // import RecentWork from "./Pages/RecentWork";
 const Testimonials = loadable(() => import ("./Pages/Testimonials"));
 //import Testimonials from "./Pages/Testimonials";
+//const TestHero = loadable(()=> import ("./Components/TestHero"));
 
 function App() {
   return (
@@ -28,8 +29,10 @@ function App() {
     <Switch>
       <Route exact path="/">
         <HeroImage/>
+        {/* <TestHero/> */}
         {/* <Home/> */}
         {/* <HeroImage/> */}
+        {/* <AudioBooks/> */}
       </Route>
       <Route exact path="/contact">
         <Contact/>
