@@ -1,5 +1,5 @@
 import React, {useState} from "react";
-import {Container, Row, Col, Table, ButtonGroup, DropdownButton, Button, Dropdown} from "react-bootstrap";
+import {Container, Row, Col, ButtonGroup, DropdownButton, Dropdown} from "react-bootstrap";
 import ResponsivePlayer from "../Components/ResponsivePlayer";
 
 
@@ -89,62 +89,12 @@ function Demos(){
             </Row> 
             <Row>
                 <Col></Col>
-                <Col xs={8}>
+                <Col xs={10}>
                     <ResponsivePlayer url={url}/>  
                 </Col>
                 <Col></Col>
 
             </Row>
-{/* ------------------------------------------------------------------ */}
-
-
-            <Row>
-                <Col>
-                <p>------------------------------------------------------------------</p>
-                <br></br>
-                <br></br>
-                <br></br>
-                </Col>
-            </Row>
-{/* ----------OPTION 2 TABLE & HALF SIZE PLAYER---------- */}
-
-            {/* <Row>
-                <Col></Col>
-                <Col xs={5}>
-                    <ResponsivePlayer url={url}/>
-                </Col>                
-                <Col xs={5}>
-                    <Table striped bordered hover responsive="sm" size="sm" >
-                        <tbody>
-                            {demos.map((demo)=>(
-                                <tr key={demo.id} onClick={()=>{setUrl(demo.link)}} className="table-dark">
-                                    <td>{demo.target}</td>
-                                    <td>{demo.tags}</td>
-
-                                </tr>
-                            ))}
-                        </tbody>
-                    </Table> */}
-                        {/* <div className="btn-group btn-group-toggle" data-toggle="buttons">
-                            <label className="btn btn-primary active">
-                                <input type="radio" name="options" id="option1" autocomplete="off" checked=""> Active
-                            </label>
-                            <label className="btn btn-primary">
-                                <input type="radio" name="options" id="option2" autocomplete="off"> Radio
-                            </label>
-                            <label className="btn btn-primary">
-                                <input type="radio" name="options" id="option3" autocomplete="off"> Radio
-                            </label>
-                        </div> */}
-
-                {/* </Col>
-                <Col></Col>
-            </Row> */}
-
-
-
-
-
             
         </Container>    
     );

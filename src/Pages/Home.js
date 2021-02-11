@@ -1,14 +1,14 @@
-import React from "react";
+// import React from "react";
 // import ReactPlayer from "react-player/lazy";
-import {Container, Row, Col} from "react-bootstrap";
-import ResponsivePlayer from "../Components/ResponsivePlayer";
+// import {Container, Row, Col} from "react-bootstrap";
+// import ResponsivePlayer from "../Components/ResponsivePlayer";
 
 
 
 
-function Home(){
-    return(
-        <div></div>
+// function Home(){
+//     return(
+//         <div></div>
         // <Container fluid>
         //     <Row><br></br></Row>
         //     <Row>
@@ -29,7 +29,7 @@ function Home(){
         //         <Col></Col>
         //     </Row>
         // </Container>    
-    );
-}
+//     );
+// }
 
-export default Home;
+// export default Home;
