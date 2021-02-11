@@ -1,7 +1,7 @@
 import React from "react";
 import loadable from '@loadable/component';
 import './App.css';
-import Home from "./Pages/Home";
+//import Home from "./Pages/Home";
 import HeroImage from "./Components/HeroImage";
 import {
   HashRouter,
@@ -29,8 +29,10 @@ function App() {
     <TopNav/>
     <Switch>
       <Route exact path="/">
+        <div id="wrapper">
         <HeroImage/>
         <AudioBooks/>
+        </div>
       </Route>
       <Route exact path="/contact">
         <Contact/>
@@ -45,7 +47,7 @@ function App() {
         <Testimonials/>
       </Route>
       <Route>
-        <Home/>
+        {/* <Home/> */}
       </Route>
     </Switch>
   </div>
@@ -55,3 +57,5 @@ function App() {
 }
 
 export default App;
+
+//test

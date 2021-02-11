@@ -1,5 +1,4 @@
 //import React, { Component, Fragment } from 'react';
-import styled from 'styled-components';
 //import generateBgGradient from '../../utils/generateBgGradient';
 import React from "react";
 //import {Jumbotron, Container} from "react-bootstrap";
@@ -16,7 +15,7 @@ import iconEmail from "../../images/iconemail.png";
 const HeroImage = () => {
 	return(
 
-<div className="hero-image">
+<div className="hero-image" >
 	<div className="hero-text">
 				<h1>DANIEL DORSE</h1>
  		  		<h3>THE VOICE YOU WANT TO LISTEN TO</h3>
@@ -35,7 +34,7 @@ const HeroImage = () => {
 
 export default HeroImage;
 
-
+//test
 
 // export default class HeroImage extends Component {
 // 	render() {

@@ -10,7 +10,7 @@ const ResponsivePlayer = (props) => {
                 className = "react-player"
                 // url="https://soundcloud.com/danielvox/daniel-dorse-commercial-demo"
                 width= "100%"
-                height="60%"
+                height="100%"
                 url= {props.url}
             />
         </div>
