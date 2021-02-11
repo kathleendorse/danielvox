@@ -54,7 +54,7 @@ function Demos(){
 
 
     return(
-        <Container fluid>
+        <Container fluid className="panels" id="demos-section">
             <Row><br></br></Row>
             <Row>
                 <Col><br></br></Col>
