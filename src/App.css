@@ -1,15 +1,17 @@
 .App {
   text-align: center;
+  width: 100%;
 }
 
-audio { 
+audio {
   /* width: 600px;  */
-  box-shadow: 5px 5px 20px rgba(0,0, 0, 0.4);
+  box-shadow: 5px 5px 20px rgba(0, 0, 0, 0.4);
   border-radius: 90px;
   transform: scale(1.05);
   padding: 5px;
+  width: 10rem;
+  display: inline-block;
 }
-
 
 figure {
   padding: 5px;
@@ -19,41 +21,137 @@ figure {
   -moz-transition: all 0.3s;
   -webkit-transition: all 0.3s;
   transition: all 0.3s;
-  }
-  
+}
+
 .audioBook:hover {
   -webkit-transform: scale(1.09);
   -moz-transform: scale(1.09);
   -o-transform: scale(1.09);
   -ms-transform: scale(1.09);
   transform: scale(1.09);
-  }
-
-
-#wrapper { 
-    position:absolute;
-    height:100%;
-    width:100%;
 }
 
-#audioBook{
-  position:relative;
-  height:100%;
-  min-height:100%;
-  width:100%;
-  z-index:1000;
-  margin-top: 100vh;
-
+#wrapper {
+  position: absolute;
+  height: 100%;
+  width: 100%;
 }
 
-.panels { 
-  position:relative;
-  height:100%;
-  min-height:100%;
-  width:100%;
-  z-index:1000;
+/* .audioBook {
+  /* position: relative;
+  height: 100%;
+  min-height: 100%;
+  width: 100%; */
+/* z-index: 1000; */
+/* margin-top: 100vh; */
+/* }  */
+
+#carousel-container {
+  margin: 1rem;
+  width: 85%;
+  justify-content: center;
+  display: inline-block;
+}
+
+.card {
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  word-wrap: break-word;
+  background-color: rgba(238, 232, 213, 0.125);
+  background-clip: border-box;
+  border: 1px solid rgba(0, 43, 54, 0.95);
+  border-radius: 0.25rem;
+  justify-content: center;
+  margin: 0.75em;
+}
+/* .panels {
+  position: relative;
+  height: 100%;
+  min-height: 100%;
+  width: 100%;
+  z-index: 1000;
   margin-top: 100%;
+} */
+
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(85, 85, 85, 0.8),
+      rgba(85, 85, 85, 0.8)
+    ),
+    url('https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg');
 }
+
+.overlay {
+  position: absolute;
+  padding: 4%;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba (0, 0, 0, 0.65);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  flex-direction: column;
+  color: #fdf6e3;
+  /* background-position: center center; */
+}
+
+.sections {
+  /* display: block; */
+  /* min-height: 80vh; */
+
+  position: relative;
+  /* background-size: cover;
+  background-position: 50% 50%; */
+  margin-top: 2rem;
+  margin-bottom: 20vh;
+  padding: 1rem;
+  justify-content: center;
+  /* display: flex; */
+  /* justify-content: center; */
+}
+
+.section-content {
+  /* position: absolute; */
+  /* height: 100%;
+  width: 100%; */
+  /* padding: 1rem; */
+  /* margin: 1rem; */
+  /* top: 0; */
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  flex-direction: column;
+  padding: 1rem;
+}
+
+hr {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  color: #fdf6e3;
+}
+
+.dropdown-menu {
+  width: 3px !important;
+  text-align: center;
+  justify-content: center;
+}
+
+.mobilePrestitial__wrapper {
+  display: none !important;
+}
+
 /* .App-logo {
   height: 40vmin;
   pointer-events: none;
@@ -88,3 +186,83 @@ figure {
     transform: rotate(360deg);
   }
 } */
+
+/* ------------------- */
+/* //AudioPlayer.module.css */
+
+/* ------------------- */
+/* //AudioPlayer.module.css */
+
+/* //----------------------- */
+/* kustom player css */
+
+.kustom-audio-player {
+  max-width: 80%;
+  border-radius: 20px;
+  padding: 24px;
+  box-shadow: 0 28px 28px rgba(0, 0, 0, 0.2);
+  margin: auto;
+  color: var(--white);
+}
+
+.artwork {
+  /* border-radius: 120px; */
+  display: block;
+  margin: auto;
+  height: 75%;
+  width: 75%;
+}
+
+.track-info {
+  text-align: center;
+  z-index: 1;
+  position: relative;
+}
+
+.title {
+  font-weight: 300;
+  margin-bottom: 7px;
+}
+
+.artist {
+  font-weight: 300;
+  margin-top: 0;
+}
+
+.kustom-controls {
+  display: flex;
+  justify-content: space-between;
+  width: 75%;
+  margin: 0 auto 15px;
+}
+
+.kustom-controls .prev,
+.kustom-controls .next {
+  width: 35px;
+  height: 35px;
+  background: none;
+  border: none;
+}
+
+.kustom-controls .play,
+.kustom-controls .pause {
+  height: 40px;
+  width: 40px;
+  background: none;
+  border: none;
+}
+
+.kustom-controls path {
+  fill: var(--white);
+}
+
+input[type='range'] {
+  height: 5px;
+  -webkit-appearance: none;
+  width: 100%;
+  margin-bottom: 10px;
+  border-radius: 8px;
+  background: #3b7677;
+  transition: background 0.2s ease;
+  cursor: pointer;
+}
