@@ -49,7 +49,7 @@ const HeroImage = () => {
 
 export default HeroImage;
 
-
+//test
 
 // export default class HeroImage extends Component {
 // 	render() {
