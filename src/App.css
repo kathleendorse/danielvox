@@ -30,8 +30,11 @@ figure {
   -ms-transform: scale(1.09);
   transform: scale(1.09);
 }
-
-#wrapper {
+.book-card-title {
+  justify-content: center;
+  text-align: center;
+}
+.bookCard #wrapper {
   position: absolute;
   height: 100%;
   width: 100%;

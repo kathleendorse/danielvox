@@ -7,6 +7,7 @@ import audioBookData from "../data/audio-book-data";
 import demoData from "../data/demo-data";
 import responsiveCarousel from "../data/responsive-carousel";
 import Kustom from "../Components/Kustom";
+import BookCard from "../Components/BookCard";
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/daniel-dorse-commercial-demo&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/
 // 2013-audiobook-demo-for-daniel
@@ -40,23 +41,8 @@ function Sections(){
                 <h1 className="text-danger display-4">audiobooks</h1>
                     <div id="carousel-container">    
                         <Carousel responsive={responsiveCarousel} centerMode={false} partialVisible infinite renderArrowsOutside >
-                            {audioBookData.map((book)=>(        
-                                <Card style={{width: "13rem" }} key={book.id}>
-                                    <Card.Body>
-                                        <Card.Title>{book.genres}</Card.Title>
-                                        <Card.Img src={book.image}/>
-                                        <Card.Text>
-                                            <audio
-                                                    controls
-                                                    src={book.mp3}
-                                                    type="audio/mpeg"
-                                                    >                            
-                                                    Your browser does not support the
-                                                    <code>audio</code> element.
-                                                </audio>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card> 
+                            {audioBookData.map((book)=>(   
+                                <BookCard key={book.id} title={book.genres} image={book.image} mp3={book.mp3} />    
                             ))}
                         </Carousel>  
                     </div>
