@@ -2,7 +2,9 @@ import React from "react";
 
 function Testimonials(){
     return(
+        <div id="testimonials-section testimonial-s">
         <h1>Testimonials Page</h1>
+        </div>
     );
 }
 

@@ -15,7 +15,7 @@ import iconEmail from "../../images/iconemail.png";
 const HeroImage = () => {
 	return(
 
-<div className="hero-image" >
+/* <div className="hero-image" id="page-top">
 	<div className="hero-text">
 				<h1>DANIEL DORSE</h1>
  		  		<h3>THE VOICE YOU WANT TO LISTEN TO</h3>
@@ -27,6 +27,21 @@ const HeroImage = () => {
 				<a href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to twitter (opens in a new tab)"><img  src={iconTwitter} alt="twitter"/></a>
 				<a href="mailto:danielvox@cox.net" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to email Daniel (opens in a new tab)"><img  src={iconEmail} alt="email"/></a>
 				</div>
+</div> */
+<div className="big-image" id="hero-s">
+	<div className="overlay">
+<h1>DANIEL DORSE</h1>
+<h3>THE VOICE YOU WANT TO LISTEN TO</h3>
+{/* <br></br>
+<span id="links" className="px-1">
+<a href="https://soundcloud.com/danielvox" ctarget="_blank" rel="noreferrer noopener" aria-label=""><img  src="" alt=""/></a>
+				<a href="https://soundcloud.com/danielvox" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to soundcloud (opens in a new tab)"><img  src={iconSoundcloud} alt="soundcloud"/></a>
+				<a href="https://www.linkedin.com/in/daniel-dorse-b8b20046/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to linkedin (opens in a new tab)"><img  src={iconLinkedIn} alt="linkedin"/></a> 
+				<a href="https://www.facebook.com/daniel.dorse/" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to facebook (opens in a new tab)"><img  src={iconFacebook} alt="facebook"/></a>
+				<a href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to twitter (opens in a new tab)"><img  src={iconTwitter} alt="twitter"/></a>
+				<a href="mailto:danielvox@cox.net" target="_blank" rel="noreferrer noopener" aria-label="This is an external link to email Daniel (opens in a new tab)"><img  src={iconEmail} alt="email"/></a>
+				</span> */}
+</div>
 </div>
 
 	);
@@ -71,6 +86,7 @@ export default HeroImage;
 
 // const HeroImageWrapper = styled.div`
 // 	align-items: center; 
+
 // 	background-position: center center;
 // 	background-repeat: no-repeat;
 // 	background-size: cover;

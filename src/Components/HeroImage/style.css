@@ -1,37 +1,71 @@
-.hero-image{
-    
-    background-image: linear-gradient(
-        to bottom right,
-         rgba(85,85,85,0.8), rgba(85,85,85,0.8)), url("https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg"
-    );
-    /* height: 100%; */
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: fixed;
-    height: 100vh;
-    width: 100vw;
-    display: flex;
-    align-items: center;
-    opacity:"0.8";
-    justify-content: center;
-    z-index: -99;
-} 
+.hero-image {
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(85, 85, 85, 0.8),
+      rgba(85, 85, 85, 0.8)
+    ),
+    url('https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg');
+  /* height: 100%; */
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  position: fixed;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  align-items: center;
+  opacity: '0.8';
+  justify-content: center;
+  z-index: -99;
+}
 
 .hero-text {
-    text-align: center;
-    position: absolute;
-    color:#fdf6e3;     
+  text-align: center;
+  position: absolute;
+  color: #fdf6e3;
 }
 
-h3.break{
-    font-size:100vw;
+h3.break {
+  font-size: 100vw;
 }
 
-/* test */
+.big-image {
+  height: 100vh;
+  width: 100vw;
+  position: relative;
+  background-size: cover;
+  background-position: 50% 50%;
+  background-image: linear-gradient(
+      to bottom right,
+      rgba(85, 85, 85, 0.8),
+      rgba(85, 85, 85, 0.8)
+    ),
+    url('https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg');
+}
+
+.overlay {
+  position: absolute;
+  height: 100%;
+  width: 100%;
+  top: 0;
+  left: 0;
+  background: rgba (0, 0, 0, 0.65);
+  color: white;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  opacity: 0.8;
+  flex-direction: column;
+  color: #fdf6e3;
+  /* background-position: center center; */
+}
+
+/* .overlay h1 {
+  margin: 0 0 5px;
+} */
+
 /* .test{
    background-image: url(https://res.cloudinary.com/katedorse/image/upload/v1609963430/pexels-freestocksorg-64057_ojmy2l.jpg); 
 } */
-
 
 /* linear gradient: rbga(direction, rbga, rbga) */
