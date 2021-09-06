@@ -238,18 +238,24 @@ hr {
 
 .kustom-controls .prev,
 .kustom-controls .next {
-  width: 35px;
-  height: 35px;
+  width: 60px;
+  height: 60px;
   background: none;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .kustom-controls .play,
 .kustom-controls .pause {
-  height: 40px;
-  width: 40px;
+  height: 60px;
+  width: 60px;
   background: none;
   border: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 
 .kustom-controls path {

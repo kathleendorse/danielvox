@@ -1,12 +1,7 @@
 import React from 'react';
-//import { ReactComponent as Play } from './assets/play.svg';
-import { FaPlay } from "react-icons/fa";
-//import { ReactComponent as Pause } from './assets/pause.svg';
-import { FaPause } from "react-icons/fa";
-// import { ReactComponent as Next } from './assets/next.svg';
-import { BsArrowRightShort } from "react-icons/bs";
-//import { ReactComponent as Prev } from './assets/prev.svg';
-import { BsArrowLeftShort } from "react-icons/bs";
+import {BsFillPlayFill, BsFillPauseFill } from 'react-icons/bs';
+import { FcNext } from 'react-icons/fc';
+import { FcPrevious } from 'react-icons/fc';
 
 const KustomControls = ({
     isPlaying,
@@ -22,25 +17,25 @@ const KustomControls = ({
       aria-label="Previous"
       onClick={onPrevClick}
     >
-      <BsArrowLeftShort />
+      <FcPrevious />
     </button>
     {isPlaying ? (
       <button
         type="button"
-        className="pause"
+        className="pause btn"
         onClick={() => onPlayPauseClick(false)}
         aria-label="Pause"
       >
-        <FaPause />
+        <BsFillPauseFill />
       </button>
     ) : (
       <button
         type="button"
-        className="play"
+        className="play btn rounded-pill"
         onClick={() => onPlayPauseClick(true)}
         aria-label="Play"
       >
-        <FaPlay />
+<BsFillPlayFill/>
       </button>
     )}
     <button
@@ -49,7 +44,7 @@ const KustomControls = ({
       aria-label="Next"
       onClick={onNextClick}
     >
-      <BsArrowRightShort />
+      <FcNext />
     </button>
 
       </div>
