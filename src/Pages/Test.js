@@ -7,6 +7,8 @@ import audioBookData from "../data/audio-book-data";
 import demoData from "../data/demo-data";
 import responsiveCarousel from "../data/responsive-carousel";
 import Kustom from "../Components/Kustom";
+import BookCard from "../Components/BookCard";
+import headshot from '../images/daniel-headshot.jpg';
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/daniel-dorse-commercial-demo&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/
 // 2013-audiobook-demo-for-daniel
@@ -21,42 +23,41 @@ function Sections(){
     return (
         <div>
             {/* -----HERO */}
-            <div className="big-image" id="home">
+            {/* <div className="big-image" id="home">
                 <div className="overlay">
-                    <h1>DANIEL DORSE</h1>
+                    <h1 className="h1">DANIEL DORSE</h1>
                     <h3>THE VOICE YOU WANT TO LISTEN TO</h3>
+                </div>
+            </div> */}
+            <div className="sections">
+                <div className="bio-content">
+                {/* <h1 className="text-primary display-3">about</h1> */}
+
+                    <div className="flex-image">
+                        <img src={headshot} style={{width: "20vw"}} alt="headshot"/>
+                    </div>
+                    <div className="flex-bio">
+                    <h1 id="head">Daniel Dorse</h1>
+                    <h3 id="subheadone">THE VOICE YOU WANT TO LISTEN TO</h3>
+
+                    </div>
                 </div>
             </div>
             {/* -----DEMOS */}
             <div id="demo-section" className="sections">
                 <div className="section-content">
-                    <h1 className="text-warning display-3">demos</h1>
+                    <h2 className="text-primary display-3">DEMOS</h2>
                     <Kustom tracks={demoData}/>
                 </div>                        
             </div>
             {/* -----AUDIOBOOKS */}
             <div id="audiobook-section" className="audioBook sections">
-                <div id="section-content">                        
-                <h1 className="text-warning display-4">audiobooks</h1>
+                <div className="section-content">                        
+                <h2 className="text-primary display-4">AUDIOBOOKS</h2>
                     <div id="carousel-container">    
                         <Carousel responsive={responsiveCarousel} centerMode={false} partialVisible infinite renderArrowsOutside >
-                            {audioBookData.map((book)=>(        
-                                <Card style={{width: "13rem" }} key={book.id}>
-                                    <Card.Body>
-                                        <Card.Title>{book.genres}</Card.Title>
-                                        <Card.Img src={book.image}/>
-                                        <Card.Text>
-                                            <audio
-                                                    controls
-                                                    src={book.mp3}
-                                                    type="audio/mpeg"
-                                                    >                            
-                                                    Your browser does not support the
-                                                    <code>audio</code> element.
-                                                </audio>
-                                        </Card.Text>
-                                    </Card.Body>
-                                </Card> 
+                            {audioBookData.map((book)=>(   
+                                <BookCard key={book.id} title={book.genres} image={book.image} mp3={book.mp3} />    
                             ))}
                         </Carousel>  
                     </div>
@@ -65,7 +66,7 @@ function Sections(){
             {/* -----TESTIMONIAL */}
             <div id="testimonial-section" className="sections">
                 <div className="section-content">
-                    <h1 className="text-warning display-4">testimonials</h1>
+                    <h2 className="text-primary display-4">TESTIMONIALS</h2>
                     </div>
             </div>
         </div>

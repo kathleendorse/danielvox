@@ -103,43 +103,35 @@ const Kustom = ({ tracks })=>{
     `;
     
     return ( 
-
-
-
-
-
-
-    
-
-    <div className="kustom-audio-player">
-        <div className="track-info">
-        	<img
-			    className="artwork"
-			    src={painting}
-			    alt={`track artwork for ${title} Demo by Daniel Dorse`}
-			/>
-		    <h2 className="title">{title}</h2>
-            {/* <h3 className="artist">Daniel Dorse</h3> */}
-            <KustomControls
-                isPlaying={isPlaying}
-                onPrevClick={toPrevTrack}
-                onNextClick={toNextTrack}
-                onPlayPauseClick={setIsPlaying}
-            />
-            <input
-                type="range"
-                value={trackProgress}
-                step="1"
-                min="0"
-                max={duration ? duration : `${duration}`}
-                className="progress"
-                onChange={(e) => onScrub(e.target.value)}
-                onMouseUp={onScrubEnd}
-                onKeyUp={onScrubEnd}
-                style={{ background: trackStyling }}
-            />    
-		</div>
-    </div>
+      <div className="kustom-audio-player">
+          <div className="track-info">
+            <img
+            className="artwork"
+            src='https://res.cloudinary.com/katedorse/image/upload/e_grayscale,o_82/v1630972162/painting_wxtfvj.jpg'
+            // src={painting}
+            alt={`track artwork for ${title} Demo by Daniel Dorse`}
+        />
+          <h4 className="title">{title}</h4>
+          <KustomControls
+            isPlaying={isPlaying}
+            onPrevClick={toPrevTrack}
+            onNextClick={toNextTrack}
+            onPlayPauseClick={setIsPlaying}
+          />
+          <input
+            type="range"
+            value={trackProgress}
+            step="1"
+            min="0"
+            max={duration ? duration : `${duration}`}
+            className="progress demo-progress"
+            onChange={(e) => onScrub(e.target.value)}
+            onMouseUp={onScrubEnd}
+            onKeyUp={onScrubEnd}
+            style={{ background: trackStyling }}
+          />    
+        </div>
+      </div>
 
     )
 }
