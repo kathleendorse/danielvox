@@ -52,23 +52,6 @@ const TopNav= props => {
                         {/* <a href="#testimonal-section" className="nav-link">testimonials</a> */}
                         <Link className="nav-link" to="testimonial-section" spy={true} smooth={true}>testimonials</Link>
                     </li>
-                    <li className="nav-item dropdown">
-                        {/* <a className="nav-link dropdown-toggle show" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Dropdown</a> */}
-                        {/* <a className="nav-link dropdown-toggle" data-bs-toggle="dropdown" href="#" role="button" aria-haspopup="true" aria-expanded="true">Dropdown</a> */}
-                        <a className="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-          contact
-        </a>
-        <div className="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
-                        {/* <div class="dropdown-menu" data-bs-popper="none"> */}
-                            <a className="dropdown-item" href="https://soundcloud.com/danielvox" target="_blank" rel="noreferrer noopener" aria-label=""><span style={{margin: auto}}><img  src="" alt=""/></span></a>
-                            <a className="dropdown-item" href="https://soundcloud.com/danielvox" target="_blank" rel="noreferrer noopener" aria-label="soundcloud"><img  src={iconSoundcloud} alt="soundcloud"/></a>
-                            <a className="dropdown-item" href="https://www.linkedin.com/in/daniel-dorse-b8b20046/" target="_blank" rel="noreferrer noopener" aria-label="linkedin"><img  src={iconLinkedIn} alt="linkedin"/></a> 
-                            <a className="dropdown-item" href="https://www.facebook.com/daniel.dorse/" target="_blank" rel="noreferrer noopener" aria-label="facebook"><img  src={iconFacebook} alt="facebook"/></a>
-                            <a className="dropdown-item" href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="twitter"><img  src={iconTwitter} alt="twitter"/></a>
-                            <a className="dropdown-item" href="mailto:danielvox@cox.net" target="_blank" rel="noreferrer noopener" aria-label="email"><img  src={iconEmail} alt="email"/></a>
-                        </div>    
-
-                    </li>
 
                 </ul>
 

@@ -4,11 +4,18 @@ import { Card} from 'react-bootstrap';
 import Carousel from 'react-multi-carousel';
 import 'react-multi-carousel/lib/styles.css';
 import audioBookData from "../data/audio-book-data";
+import testimonialData from "../data/testimonal-data";
 import demoData from "../data/demo-data";
 import responsiveCarousel from "../data/responsive-carousel";
 import Kustom from "../Components/Kustom";
 import BookCard from "../Components/BookCard";
 import headshot from '../images/daniel-headshot.jpg';
+import BlockQuote from "../Components/BlockQuote";
+import iconFacebook from "../images/iconfacebook.png";
+import iconLinkedIn from "../images/iconlinkedin.png";
+import iconSoundcloud from "../images/iconsoundcloud.png";
+import iconTwitter from "../images/icontwitter.png";
+import iconEmail from "../images/iconemail.png";
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/daniel-dorse-commercial-demo&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/
 // 2013-audiobook-demo-for-daniel
@@ -29,7 +36,7 @@ function Sections(){
                     <h3>THE VOICE YOU WANT TO LISTEN TO</h3>
                 </div>
             </div> */}
-            <div className="sections">
+            <div className="sections" id="home">
                 <div className="bio-content">
                 {/* <h1 className="text-primary display-3">about</h1> */}
 
@@ -39,7 +46,12 @@ function Sections(){
                     <div className="flex-bio">
                     <h1 id="head">Daniel Dorse</h1>
                     <h3 id="subheadone">THE VOICE YOU WANT TO LISTEN TO</h3>
-
+                    <h5>commericals . audiobooks . imaging</h5>
+                             <a href="https://soundcloud.com/danielvox" target="_blank" rel="noreferrer noopener" aria-label="soundcloud"><img  src={iconSoundcloud} alt="soundcloud"/></a>
+                            <a href="https://www.linkedin.com/in/daniel-dorse-b8b20046/" target="_blank" rel="noreferrer noopener" aria-label="linkedin"><img  src={iconLinkedIn} alt="linkedin"/></a> 
+                            <a href="https://www.facebook.com/daniel.dorse/" target="_blank" rel="noreferrer noopener" aria-label="facebook"><img  src={iconFacebook} alt="facebook"/></a>
+                            <a href="https://twitter.com/danielvox1" target="_blank" rel="noreferrer noopener" aria-label="twitter"><img  src={iconTwitter} alt="twitter"/></a>
+                            <a href="mailto:danielvox@cox.net" target="_blank" rel="noreferrer noopener" aria-label="email"><img  src={iconEmail} alt="email"/></a>
                     </div>
                 </div>
             </div>
@@ -65,10 +77,13 @@ function Sections(){
             </div>
             {/* -----TESTIMONIAL */}
             <div id="testimonial-section" className="sections">
-                <div className="section-content">
-                    <h2 className="text-primary display-4">TESTIMONIALS</h2>
-                    </div>
-            </div>
+            <h2 className="text-primary display-4">TESTIMONIALS</h2>
+                {/* <div className="section-content"> */}
+                    <ul className="flex-container">
+                        {testimonialData.map((test)=>(<BlockQuote key={test.id} author={test.author} body={test.body} source={test.source}/>))}
+                    </ul>
+                </div>
+            {/* </div> */}
         </div>
     );
 }

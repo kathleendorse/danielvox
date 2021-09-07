@@ -142,6 +142,7 @@ figure {
   margin-bottom: 20vh;
   padding: 1rem;
   justify-content: center;
+  text-align: center;
   /* display: flex; */
   /* justify-content: center; */
 }
@@ -352,4 +353,81 @@ input[type='range'] {
 
 .inline-audio {
   display: inline-block;
+}
+
+.flex-container {
+  /* We first create a flex layout context */
+  display: flex;
+
+  /* Then we define the flow direction 
+     and if we allow the items to wrap 
+   * Remember this is the same as:
+   * flex-direction: row;
+   * flex-wrap: wrap;
+   */
+  flex-flow: row wrap;
+
+  /* Then we define how is distributed the remaining space */
+  justify-content: space-around;
+  align-items: center;
+  list-style: none;
+  padding: 0;
+  margin: 1rem;
+}
+/* justify-content: center; */
+/* flex-direction: row; */
+/* padding-left: 5rem;
+padding-right: 5rem;
+padding-bottom: 5rem; */
+.flex-item {
+  padding: 5px;
+  width: 40vw;
+  height: 36vh;
+  margin-top: 10px;
+  /* line-height: 150px; */
+  color: white;
+  /* font-weight: bold; */
+  font-size: 3em;
+  text-align: center;
+}
+
+.testimonial-heading {
+  margin-bottom: 0.5rem;
+}
+
+figcaption {
+  font-family: 'Open Sans';
+  /* font-style: bold; */
+  /* font-size: 10px; */
+  /* font-size: 9px; */
+}
+
+blockquote {
+  font-family: 'Open Sans';
+  font-style: bold;
+}
+
+cite {
+  font-family: 'Open Sans';
+  font-style: italic;
+}
+
+figcaption .blockquote-footer p {
+  /* font-size: 9px; */
+  text-align: left;
+}
+/* body {
+  font-family: "Open Sans";
+} */
+
+h2,
+h4,
+a,
+ul,
+li,
+p,
+cite,
+h5,
+h3 {
+  font-family: 'Open Sans';
 }
