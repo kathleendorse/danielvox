@@ -22,10 +22,24 @@ function Sections(){
     return (
         <div>
             {/* -----HERO */}
-            <div className="big-image" id="home">
+            {/* <div className="big-image" id="home">
                 <div className="overlay">
-                    <h1>DANIEL DORSE</h1>
+                    <h1 className="h1">DANIEL DORSE</h1>
                     <h3>THE VOICE YOU WANT TO LISTEN TO</h3>
+                </div>
+            </div> */}
+            <div className="sections">
+                <div className="bio-content">
+                {/* <h1 className="text-primary display-3">about</h1> */}
+
+                    <div className="flex-image">
+                        <img src={headshot} style={{width: "20vw"}} alt="headshot"/>
+                    </div>
+                    <div className="flex-bio">
+                    <h1 id="head">Daniel Dorse</h1>
+                    <h3 id="subheadone">THE VOICE YOU WANT TO LISTEN TO</h3>
+
+                    </div>
                 </div>
             </div>
             {/* -----DEMOS */}
