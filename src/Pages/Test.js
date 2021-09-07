@@ -8,6 +8,7 @@ import demoData from "../data/demo-data";
 import responsiveCarousel from "../data/responsive-carousel";
 import Kustom from "../Components/Kustom";
 import BookCard from "../Components/BookCard";
+import headshot from '../images/daniel-headshot.jpg';
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/daniel-dorse-commercial-demo&visual=true&buying=false&liking=false&download=false&sharing=false&show_comments=false&show_playcount=false&callback=true
 // https://w.soundcloud.com/player/?url=https://soundcloud.com/danielvox/
 // 2013-audiobook-demo-for-daniel
