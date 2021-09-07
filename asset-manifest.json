@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/danielvox/static/css/main.028c0827.chunk.css",
-    "main.js": "/danielvox/static/js/main.17971fad.chunk.js",
-    "main.js.map": "/danielvox/static/js/main.17971fad.chunk.js.map",
-    "runtime-main.js": "/danielvox/static/js/runtime-main.bfbed724.js",
-    "runtime-main.js.map": "/danielvox/static/js/runtime-main.bfbed724.js.map",
+    "main.css": "/danielvox/static/css/main.2304bc7e.chunk.css",
+    "main.js": "/danielvox/static/js/main.34a2858b.chunk.js",
+    "main.js.map": "/danielvox/static/js/main.34a2858b.chunk.js.map",
+    "runtime-main.js": "/danielvox/static/js/runtime-main.31b3fd1e.js",
+    "runtime-main.js.map": "/danielvox/static/js/runtime-main.31b3fd1e.js.map",
     "static/css/2.a0072e01.chunk.css": "/danielvox/static/css/2.a0072e01.chunk.css",
-    "static/js/2.3f82996d.chunk.js": "/danielvox/static/js/2.3f82996d.chunk.js",
-    "static/js/2.3f82996d.chunk.js.map": "/danielvox/static/js/2.3f82996d.chunk.js.map",
-    "static/js/3.021a1da4.chunk.js": "/danielvox/static/js/3.021a1da4.chunk.js",
-    "static/js/3.021a1da4.chunk.js.map": "/danielvox/static/js/3.021a1da4.chunk.js.map",
+    "static/js/2.dfb574d5.chunk.js": "/danielvox/static/js/2.dfb574d5.chunk.js",
+    "static/js/2.dfb574d5.chunk.js.map": "/danielvox/static/js/2.dfb574d5.chunk.js.map",
+    "static/js/3.400be0a7.chunk.js": "/danielvox/static/js/3.400be0a7.chunk.js",
+    "static/js/3.400be0a7.chunk.js.map": "/danielvox/static/js/3.400be0a7.chunk.js.map",
     "index.html": "/danielvox/index.html",
     "static/css/2.a0072e01.chunk.css.map": "/danielvox/static/css/2.a0072e01.chunk.css.map",
-    "static/css/main.028c0827.chunk.css.map": "/danielvox/static/css/main.028c0827.chunk.css.map",
-    "static/js/2.3f82996d.chunk.js.LICENSE.txt": "/danielvox/static/js/2.3f82996d.chunk.js.LICENSE.txt",
+    "static/css/main.2304bc7e.chunk.css.map": "/danielvox/static/css/main.2304bc7e.chunk.css.map",
+    "static/js/2.dfb574d5.chunk.js.LICENSE.txt": "/danielvox/static/js/2.dfb574d5.chunk.js.LICENSE.txt",
     "static/media/audiobookDemo.794256ff.mp3": "/danielvox/static/media/audiobookDemo.794256ff.mp3",
     "static/media/britishDemo.ae6b7b04.mp3": "/danielvox/static/media/britishDemo.ae6b7b04.mp3",
     "static/media/commercialDemo.77f6647d.mp3": "/danielvox/static/media/commercialDemo.77f6647d.mp3",
@@ -23,10 +23,10 @@
     "static/media/saltOfTheEarthDemo.05c6707e.mp3": "/danielvox/static/media/saltOfTheEarthDemo.05c6707e.mp3"
   },
   "entrypoints": [
-    "static/js/runtime-main.bfbed724.js",
+    "static/js/runtime-main.31b3fd1e.js",
     "static/css/2.a0072e01.chunk.css",
-    "static/js/2.3f82996d.chunk.js",
-    "static/css/main.028c0827.chunk.css",
-    "static/js/main.17971fad.chunk.js"
+    "static/js/2.dfb574d5.chunk.js",
+    "static/css/main.2304bc7e.chunk.css",
+    "static/js/main.34a2858b.chunk.js"
   ]
 }
