@@ -45,15 +45,14 @@ function Sections(){
             {/* -----DEMOS */}
             <div id="demo-section" className="sections">
                 <div className="section-content">
-                    <h1 className="text-primary display-3">demos</h1>
+                    <h2 className="text-primary display-3">DEMOS</h2>
                     <Kustom tracks={demoData}/>
                 </div>                        
             </div>
             {/* -----AUDIOBOOKS */}
             <div id="audiobook-section" className="audioBook sections">
-                <hr/>
                 <div className="section-content">                        
-                <h1 className="text-primary display-4">audiobooks</h1>
+                <h2 className="text-primary display-4">AUDIOBOOKS</h2>
                     <div id="carousel-container">    
                         <Carousel responsive={responsiveCarousel} centerMode={false} partialVisible infinite renderArrowsOutside >
                             {audioBookData.map((book)=>(   
@@ -66,7 +65,7 @@ function Sections(){
             {/* -----TESTIMONIAL */}
             <div id="testimonial-section" className="sections">
                 <div className="section-content">
-                    <h1 className="text-primary display-4">testimonials</h1>
+                    <h2 className="text-primary display-4">TESTIMONIALS</h2>
                     </div>
             </div>
         </div>
